@@ -1,4 +1,4 @@
-var practice = [
+practice = [
   ["group","item","block","psf","tsf","prime","target","ptype","ttype","primeNWStatus","targetNWStatus"  ],
   ["1","1","1","nw_skrown_R.wav","w_gnome_R.wav","skrown","gnome","NW-Practice","W-Practice","1","0"  ],
   ["1","2","1","nw_grihjh_R.wav","w_tripe_R.wav","grihjh","tripe","NW-Practice","W-Practice","1","0"  ],
@@ -10,4 +10,4 @@ var practice = [
   ["1","8","1","w_clay_R.wav","w_flame_R.wav","clay","flame","W-Practice","W-Practice","0","0"  ],
   ["1","9","1","w_beer_R.wav","w_fluff_R.wav","beer","fluff","W-Practice","W-Practice","0","0"  ],
   ["1","10","1","w_bridge_R.wav","w_lump_R.wav","bridge","lump","W-Practice","W-Practice","0","0"  ]
-];
+]
