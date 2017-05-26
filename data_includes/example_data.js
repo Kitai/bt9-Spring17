@@ -90,6 +90,8 @@ var items = [
      "Message", {transfer: "click", html: {include: "warning.html"}},
      "Message", {transfer: "click", html: {include: "instructions.html"}},
      "Question", {q: groupNum, as: ['Group num is','GroupNum'], timeout:1}],
+     ["Preloading", "PreloaderCheck", {}],
+     ["Preloading", "Preloader", {files: audioFilesToPreload}]
     ["Start","Message",{html: {include: "start.html"}}],
     ["Break","Message",{html: "<html><div><p>If you want, you can now take a break.</p></div></html>"}],
     ["Final", 
