@@ -341,7 +341,7 @@ define_ibex_controller({
                 for (file in listOfFiles) {
                     if (listOfFiles[file] != "loaded") {
                         // Add it to the list of the files that have not been loaded for this trial
-                        failedToLoad.push(t.files[file]);
+                        failedToLoad.push(listOfFiles[file]);
                     }
                 }
                 // Just signal it in the console for information

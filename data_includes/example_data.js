@@ -1,11 +1,14 @@
 // Sequence of the experiment - refers to 'items' defined below
 var shuffleSequence = seq("Instructions",
+                          "Preloading",
                           rshuffle("Practice"),
                           "Start",
                           "Experimental1",
                           "Break",
                           "Experimental2",
                           "Final");
+
+var host = "http://www.ling.upenn.edu/~amygood/files/soundfiles/";
 
 // Defaults for types of questions found in this experiment
 // NOTE: 'LQuestion' (written by Akiva and/or Jeremy) is a timed version of Question
@@ -91,7 +94,7 @@ var items = [
      "Message", {transfer: "click", html: {include: "instructions.html"}},
      "Question", {q: groupNum, as: ['Group num is','GroupNum'], timeout:1}],
      ["Preloading", "PreloaderCheck", {}],
-     ["Preloading", "Preloader", {files: audioFilesToPreload}]
+     ["Preloading", "Preloader", {files: audioFilesToPreload, host: "http://www.ling.upenn.edu/~amygood/files/soundfiles/"}],
     ["Start","Message",{html: {include: "start.html"}}],
     ["Break","Message",{html: "<html><div><p>If you want, you can now take a break.</p></div></html>"}],
     ["Final", 
