@@ -1,4 +1,4 @@
-data = [
+var data = [
   ["stimType","group","rowNum","ptype","prime","ttype","target","block","item","psf","tsf","primeNWStatus","targetNWStatus"  ],
   ["filler","1","7","NW-filler","plown","NW-filler","slayn","1","1","nw_plown_R.wav","nw_slayn_R.wav","1","1"  ],
   ["filler","1","133","NW-filler","rihl","NW-filler","faemp","1","2","nw_rihl_R.wav","nw_faemp_R.wav","1","1"  ],
