@@ -1,0 +1,49 @@
+<html>
+<head>
+</head>
+<body>
+  
+<p><b>Please give us these last pieces of information before we save your answers.</b></p>
+
+<ol>
+  <li>
+<p>What is your age?</p>
+ <input name="Age" type="text" id="age" class="obligatory" />
+  </li>
+<li>    
+<p>What is your gender?</p>
+  <input name="gender" type="radio" value="male" id="mgender" class="obligatory" /><label for="mgender">Male</label>
+  <input name="gender" type="radio" value="female" id="fgender" /><label for="fgender">Female</label>
+  <input name="gender" type="radio" value="other" id="ogender" /><label for="ogender">Not listed</label>
+  <input name="gender" type="radio" value="other" id="ogender" /><label for="pgender">Prefer not to self-identify</label>
+  </li>
+  <li>
+<p>Which country did you spend most of your early childhood in?</p>
+  <input name="Childhood country" type="radio" value="us" id="us" class="obligatory"/> <label for="us">United States</label> <!--changed this to create default US entry -->
+  <input name="Childhood country" type="radio" value="elsewhere" id="elsewhere" class="obligatory"/> <label for="elsewhere">Elsewhere</label> <!--changed this to create default US entry -->
+  </li>
+  <li>
+<p>If your answer to the previous question was "Elsewhere", please state the country below:</p>
+  <input name="Childhood country elsewhere" type="text" value="" id="country2"/> <!-- class="obligatory"/>-->
+  </li>
+  <li>
+<p>Do you speak any languages <i>other than English</i> like a native speaker?<br>
+<i>By speaking ‘like a native speaker’, we mean that when you speak the language people who grew up speaking that language usually think you also grew up speaking that language.</i></p>
+  <input name="Other native languages" type="radio" value="yes" id="multilingual" class="obligatory" /><label for="multilingual">Yes</label>
+  <input name="Other native languages" type="radio" value="no" id="monolingual" /><label for="monolingual">No</label>
+  </li>
+  <li>
+<p>Are you right-handed, left-handed, or ambidextrous?</p>
+  <input name="Handedness" type="radio" value="right" id="rhand" class="obligatory" /><label for="rhand">Right</label>
+  <input name="Handedness" type="radio" value="left" id="lhand" /><label for="lhand">Left</label>
+  <input name="Handedness" type="radio" value="both" id="bhand" /><label for="bhand">Ambidextrous</label>
+  </li>
+  <li>    
+<p>Were you distracted during this experiment?</p>
+  <input name="Distractedness" type="radio" value="yes" id="ydistracted" class="obligatory" /><label for="ydistracted">Yes </label>
+  <input name="Distractedness" type="radio" value="no" id="ndistracted"/><label for="ndistracted"> No</label>
+  </li>
+
+</ol>
+</body>
+</html>

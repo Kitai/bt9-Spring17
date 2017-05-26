@@ -1,0 +1,27 @@
+  <p><span style="font-weight: bold;">Please remember that this experiment requires that you have
+  a working audio device.</span> You can test whether your system supports audio by playing the following file:</p>
+
+  <audio controls preload="auto" style="width: 300px; height: 30px; display: block;">
+    <source src="http://www.ling.upenn.edu/~amygood/files/soundfiles/w_test_R.wav" type="audio/wav">
+    We are sorry but your system does not support the audio.
+  </audio>
+
+  <p>You may proceed if you have been able to play this file.</p>
+
+</div>
+      
+<script type="text/javascript">
+//<![CDATA[
+
+function loadAudio(uri)
+{
+    console.log("Loading "+uri);
+    var audio = new Audio();
+    audio.src = uri;
+    return audio;
+}
+  loadAudio("http://www.ling.upenn.edu/~amygood/files/soundfiles/w_test_R.wav");
+*/
+  
+//]]>
+</script>
